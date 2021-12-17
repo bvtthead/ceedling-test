@@ -6,3 +6,8 @@
     - tests/**
     - -:tests/build/**
 
+:plugins:
+  :load_paths:
+    - "#{Ceedling.load_path}"
+  :enabled:
+    - stdout_pretty_tests_report
